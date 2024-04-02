@@ -1,0 +1,96 @@
+.information-news{
+    margin-top: 30px;
+    &-inner{
+        margin-top: 15px;
+        display: flex;
+        
+    }
+    &-under{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        &-post{
+            display: flex;
+            align-items: center;
+            
+            img{
+                width: 30%;
+            }
+            &-title{
+                margin-left: 10px;
+                            height: 46px;
+                margin-left: 12px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 150%;
+                color: #3c4146;
+            }
+        }
+    }
+    &-left{
+        max-width: 66%;
+
+    }
+    &-main{
+        display: flex;
+        align-items: center;
+        img{
+            width: 50%;
+        }
+        &-post{
+            background-color: #f0f2f5;
+            padding: 25px;
+            height: 243px;
+            border-radius: 4px;
+            span{
+                height: 60px;
+                margin: 16px 16px 0 16px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+            }
+            p{
+                margin: 8px 16px 0 16px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 150%;
+                color: #3c4146;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                height: inherit;
+                
+                
+            }
+        }
+    }
+    &-right{
+        padding: 10px;
+        margin-left: 15px;
+        a{
+            margin-top: 8px;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 150%;
+            color: #0499a8;
+        }
+    }
+    &-all-title{
+        a{
+            cursor: pointer;
+        }
+        h3{
+            border-bottom: 1px #ccc;
+            white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 8px 0 8px 0;
+    border-bottom: 1px solid #e6ecf0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3c4146;
+    overflow: hidden;
+        }
+    }
+}
